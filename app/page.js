@@ -1,4 +1,40 @@
+import { Button } from "@/components/ui/button";
+import { ArrowRight } from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
+
 export default function Home() {
-  return <div>Hello from Aryata</div>;
+  return (
+     <main className="container mx-auto px-4 py-16">
+       <div className="flex flex-col lg:flex-row items-center justify-between gap-12 mb-24">
+        <div className="lg:w-1/2">
+          <h1 className="text-7xl font-extrabold pb-6">Simplify Your Scheduling</h1>
+          <p className="text-xl text-grey-600 mb-10">
+            Callendric helps you manage your time effectively.
+            Create events, set availaibility, and let others book time with you seamlessly.
+          </p>
+          <Link href='/dashboard'>
+          <Button size="lg" className="text-lg">
+            Get Started <ArrowRight className="ml-2 h-5 w-5" />
+            </Button>
+            </Link>
+        </div>
+       
+       <div className="lg:w-1/2 flex justify-center">
+       <div className="relative w-full max-w-md aspect-square">
+         <Image
+        src="/posterr.png"
+        alt="Illustration"
+        layout="fill"
+        objectFit="contain"
+        />
+
+       </div>
+       
+       </div>
+      </div>
+     </main>
+  )
+   
 }
     
