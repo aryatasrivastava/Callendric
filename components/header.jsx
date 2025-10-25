@@ -21,9 +21,9 @@ const Header = ()=> {
 
       <div className="flex items-center gap-4">
         <Link href="/events?create=true">
-          <Button variant="default" className="flex items-center gap-2">
+          <Button variant="default" className="bg-blue-600 flex items-center gap-2">
             <PenBox size={18} />
-            <span className="hidden sm:inline">Create Event</span>
+            <span className="bg-blue-600 hidden sm:inline">Create Event</span>
           </Button>
         </Link>
         <SignedOut>
@@ -39,7 +39,4 @@ const Header = ()=> {
       );
 
 }
-
-
-
 export default Header;
