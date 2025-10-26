@@ -44,7 +44,7 @@ export default function Home() {
      <main className="container mx-auto px-4 py-16">
        <div className="flex flex-col lg:flex-row items-center justify-between gap-12 mb-24">
         <div className="lg:w-1/2">
-          <h1 className="text-7xl font-extrabold pb-6 text-blue-900">Simplify Your Scheduling</h1>
+          <h1 className="text-7xl font-extrabold pb-6 text-blue-900">Scheduling Made Simpler</h1>
           <p className="text-xl text-grey-600 mb-10">
             Callendric helps you manage your time effectively.
             Create events, set availaibility, and let others book time with you seamlessly.
