@@ -1,31 +1,31 @@
 "use client"
 const testimonials = [
   {
-    name: "Sarah Johnson",
-    role: "Marketing Manager",
+    name: "Aarav Sharma",
+    role: "Founder, PixelCraft",
     content:
       "Callendric has transformed how I manage my team's meetings. It's intuitive and saves us hours every week!",
     image: "https://i.pravatar.cc/150?img=1",
   },
   {
-    name: "David Lee",
+    name: "Ishan Mehta",
     role: "Freelance Designer",
     content:
       "As a freelancer, Callendric helps me stay organized. My clients love how easy it is to book time with me.",
     image: "https://i.pravatar.cc/150?img=2",
   },
   {
-    name: "Emily Chen",
+    name: "Rohan Verma",
     role: "Startup Founder",
     content:
       "Callendric streamlined our hiring process. Setting up interviews has never been easier!",
     image: "https://i.pravatar.cc/150?img=3",
   },
   {
-    name: "Michael Brown",
+    name: "Michael Jackson",
     role: "Sales Executive",
     content:
-      "I've seen a 30% increase in my meeting bookings since using Callendric. It's a game-changer for sales professionals.",
+       "Absolutely love the clean UI and smooth functionality.",
     image: "https://i.pravatar.cc/150?img=4",
   },
 ];

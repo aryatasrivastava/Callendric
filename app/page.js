@@ -24,18 +24,21 @@ const features = [
 ];
 
 const howItWorks = [
-  { step: "Sign Up", description: "Create your free Callendric account" },
+  { step:"Select a Date",
+    description:
+      "Pick a convenient date from the interactive calendar. It’s quick and easy to navigate.",},
   {
-    step: "Set Availability",
-    description: "Define when you're available for meetings",
-  },
+    step:"Choose a Time Slot",
+    description: "Pick the time that fits best for you. Slots are dynamically updated to maintain smooth scheduling.",},
+  
   {
     step: "Share Your Link",
-    description: "Send your scheduling link to clients or colleagues",
+    description: "Once your availability is set, share your personalized meeting link through email so others can easily book time with you.",
   },
+  
   {
     step: "Get Booked",
-    description: "Receive confirmations for new appointments automatically",
+    description:"Your invitees can now book a time using the link. Once booked, both parties receive a confirmation and the meeting is added to the calendar.",
   },
 ];
 

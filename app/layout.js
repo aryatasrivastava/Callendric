@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header";
+import ScheduleMeeting from "@/components/ScheduleMeeting";
 import { ClerkProvider } from "@clerk/nextjs";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -12,16 +13,18 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <ClerkProvider>
+   < ClerkProvider>
       <html lang="en">
         <body className={inter.className}>
           <Header />
           <main className="min-h-screen bg-white">
             {children}
+             <ScheduleMeeting />
           </main>
+          
           <footer className="bg-blue-900 py-12 shadow-md">
             <div className="container mx-auto px-4 text-center text-white ">
-              <p>Made with 💗 by Aryata</p>
+              <p>Made with 💗 </p>
             </div>
           </footer>
           </body>
