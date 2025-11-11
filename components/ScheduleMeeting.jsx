@@ -35,7 +35,6 @@ export default function ScheduleMeeting() {
 
       <form onSubmit={handleSubmit(onSubmit)}>
         <CardContent className="space-y-4">
-          {/* Success Message */}
           {success && (
             <div className="p-3 text-sm text-green-700 bg-green-100 rounded-md text-center">
               ✅ Meeting Scheduled! A confirmation email has been sent.
@@ -74,7 +73,7 @@ export default function ScheduleMeeting() {
             </Popover>
           </div>
 
-          {/* Time Picker */}
+          
           <div>
             <label className="block mb-1 text-sm font-medium">Select Time</label>
             <Input type="time" {...register("time", { required: true })} />
